@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://abraao.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Abra&atilde;o Louren&ccedil;o
+subtitle: Software development and other things. (abraao@alourenco.com)
+author: Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)
 simple_search: http://google.com/search
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: abraao@alourenco.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -58,26 +58,26 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: abraao
+github_repo_count: 1
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
-twitter_tweet_count: 4
+twitter_user: abelourenco
+twitter_tweet_count: 1
 twitter_show_replies: false
 twitter_follow_button: true
-twitter_show_follower_count: false
+twitter_show_follower_count: true
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
-google_plus_one_size: medium
+google_plus_one: true
+google_plus_one_size: small
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: 102104545851568461071
 googleplus_hidden: false
 
 # Pinboard
@@ -96,4 +96,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
