@@ -3,7 +3,7 @@ layout: post
 title: "Book review: The Pragmatic Programmer"
 date: 2011-12-17 02:31
 comments: true
-published: true
+published: false
 categories: books
 ---
 [The Pragmatic Programmer](http://pragprog.com/the-pragmatic-programmer) covers the activities in programming that go beyond writing code. It provides tips on how to improve the way you code by changing your process and using the right tools. Most of the items it suggests are common sense today in any software shop, but the book is still worth reading.
