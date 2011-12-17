@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://abraao.github.com/atom.xml" rel="self"/>
   <link href="http://abraao.github.com/"/>
-  <updated>2011-12-17T02:27:57+01:00</updated>
+  <updated>2011-12-17T21:43:46+01:00</updated>
   <id>http://abraao.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Second test post]]></title>
+    <link href="http://abraao.github.com/blog/2011/12/17/second-test-post/"/>
+    <updated>2011-12-17T21:42:00+01:00</updated>
+    <id>http://abraao.github.com/blog/2011/12/17/second-test-post</id>
+    <content type="html"><![CDATA[<p>This is a test post that should show up before the first post.</p>
+]]></content>
+  </entry>
   
 </feed>
