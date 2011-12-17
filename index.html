@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Abra&atilde;o Louren&ccedil;o</title>
+  <meta name="author" content="Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="Programming is a craft that involves more than coding, and The Pragmatic Programmer gives developers advice on how to improve those other areas. Its &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +24,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Abra&atilde;o Louren&ccedil;o" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,9 +35,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Abra&atilde;o Louren&ccedil;o</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>Software development and other things. (abraao@alourenco.com)</h2>
   
 </hgroup>
 
@@ -65,6 +65,63 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/17/book-review-the-pragmatic-programmer/">Book Review: The Pragmatic Programmer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-17T02:31:00+01:00" pubdate data-updated="true">Dec 17<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Programming is a craft that involves more than coding, and <a href="http://pragprog.com/the-pragmatic-programmer">The Pragmatic Programmer</a> gives developers advice on how to improve those other areas. Its suggestions should already be common practice in a decent software shop; check it to see if there&#8217;s anything you need to improve in your work environment.</p>
+
+<p>The technology referenced in the book needs to be updated to reflect the current state of the art. While this doesn&#8217;t negate the points made by the authors, listing CVS and RCS as options for source code control systems but omitting distributed version control options such as git and mercurial would be unconscionable in a new volume.</p>
+
+<p>The sections <em>The Requirements Pit</em> and <em>Pragmatic Teams</em> stood out from the rest in their applicability to improving my skill set. In <em>The Requirements Pit</em> the authors explain how to find requirements that may be &#8220;buried beneath deep beneath layers of assumptions, misconceptions, and politics&#8221; and how to document them properly. It&#8217;s very tempting to code to spec and dismiss complaints of &#8220;that&#8217;s not what I meant&#8221; variety, but it&#8217;s the responsibility of every professional developer (see <a href="http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073">The Clean Coder</a>) to deliver what the user needs. The key point in this chapter is that &#8220;it&#8217;s important to discover the underlying reason why user do a particular thing, rather than just the way they currently do it.&#8221;</p>
+
+<p><em>Pragmatic Teams</em> covers how to apply the pragmatic methods to teams:</p>
+
+<ul>
+<li>Teams should not tolerate broken windows.</li>
+<li>Someone should be in charge for guarding against scope creep or changes that weren&#8217;t captured in the original agreement.</li>
+<li>How a team should communicate with the rest of the organization.</li>
+<li>Splitting teams functionally.</li>
+<li>Automate as much as possible.</li>
+</ul>
+
+
+<p>One of the roles described in <em>Pragmatic Teams</em>, the project librarian, seems antiquated in a time when source code indexing and search tools are available and when good documentation is available on existing code. I&#8217;d be curious to hear from a team who uses this role  to deliver what the user needs</p>
+
+<p>The team that is described in <em>Pragmatic Teams</em> is a group that works together within the organization and moves from project to project together. I haven&#8217;t had the opportunity to be part of such a team (i.e. teams are assembled for each project), but it&#8217;s an approach that I think would be build a sense of unity between the members.</p>
+
+<p>Overall this book is a good addition to any developer&#8217;s library, but more modern alternatives should be used instead of the tools and technologies mentioned.</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,11 +134,69 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2011/12/17/book-review-the-pragmatic-programmer/">Book review: The Pragmatic Programmer</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/abraao">@abraao</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'abraao',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("abelourenco", 1, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/abelourenco" class="twitter-follow-button" data-show-count="true">Follow @abelourenco</a>
+  
 </section>
 
 
 
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/102104545851568461071?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -91,7 +206,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2011 - Your Name -
+  Copyright &copy; 2011 - Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com) -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
@@ -100,7 +215,24 @@
 
 
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
