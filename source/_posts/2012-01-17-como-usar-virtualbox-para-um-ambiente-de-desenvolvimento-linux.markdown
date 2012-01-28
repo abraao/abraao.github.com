@@ -6,8 +6,6 @@ comments: true
 published: false
 categories: [Portuguese, Development, Linux]
 ---
-Aqui vem o meu primeiro post do ano e tamb&eacute;m o primeiro em portugu&ecirc;s. Escrevo o post em portugu&ecirc;s com o prop&oacute;sito de utilizar mais a lingua materna em assuntos t&eacute;cnicos e tamb&eacute;m tomando em conta a audiencia, que s&atidle;o pricinpalmente os meus primos. Como me falta practicar o portugu&ecirc;s e tambem estou digitando todas as letras acentuads em formato de entidades HTML (em um teclado espanhol, configurado para estilo estado unidense), tenha um pouco de paci&ecirc;ncia. Se tiver coment&aacute;rios sobre isso, &eacute; s&oacute; me mandar um email: <abraao@alourenco.com>.
-
 [VirtualBox](https://www.virtualbox.org/wiki/Downloads) &eacute; uma ferramenta para criar e executar máquinas virtuais. &Eacute; oferecida por Oracle e esta disponivel gratuitamente.
 
 ## Criando uma máquina virtual
