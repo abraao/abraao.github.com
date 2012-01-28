@@ -4,7 +4,7 @@
   <title><![CDATA[Abra&atilde;o Louren&ccedil;o]]></title>
   <link href="http://abraao.github.com/atom.xml" rel="self"/>
   <link href="http://abraao.github.com/"/>
-  <updated>2011-12-18T00:51:16+01:00</updated>
+  <updated>2012-01-29T00:19:39+01:00</updated>
   <id>http://abraao.github.com/</id>
   <author>
     <name><![CDATA[Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Como usar VirtualBox para um ambiente de desenvolvimento Linux]]></title>
+    <link href="http://abraao.github.com/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux/"/>
+    <updated>2012-01-28T23:59:00+01:00</updated>
+    <id>http://abraao.github.com/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux</id>
+    <content type="html"><![CDATA[<p><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> &eacute; uma ferramenta para criar e executar máquinas virtuais. &Eacute; oferecida por Oracle e esta disponivel gratuitamente.</p>
+
+<h2>Criando uma máquina virtual</h2>
+
+<ol>
+<li>Baixe o <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
+<li>Clique em &#8220;Machine > New&#8221;, e depois, &#8220;Next&#8221;.</li>
+<li>Coloque um nome para a sua máquina virtual.</li>
+<li>Selecione &#8220;Linux&#8221; e &#8220;Ubuntu&#8221; e clique em &#8220;Next&#8221;.</li>
+<li>Selecione o tanto de memoria que voc&ecirc; quer usar para a máquina virtual. Eu recomendo utilizar o m&aacute;ximo poss&iacute;vel, mas n&atilde;o mais que (RAM total) - (m&iacute;nimo para rodar o sistema operacional do computador). Por exemplo: 12GB - 4GB (m&iacute;nimo para Windows 7) = 8GB m&aacute;ximo para a m&aacute;quina virtual.</li>
+<li>Na tela de &#8220;Virtual Hard Disk&#8221;, selecione &#8220;Create new hard disk&#8221;. Depois clique em &#8220;Next&#8221;.</li>
+<li>Selecione &#8220;Fixed-sized storage&#8221; e no m&iacute;nimo 4GB para o disco duro. A instala&ccedil;&atilde;o do Ubuntu requer 4GB de disco duro, mas &eacute; recomend&aacute;vel utilizar mais (8GB por exemplo).</li>
+<li>Clique em &#8220;Finish&#8221; e espere que a máquina virtual seja criada.</li>
+</ol>
+
+
+<h2>Instalando Ubuntu</h2>
+
+<ol>
+<li>Depois da máquina ser criada, baixe o <a href="http://www.ubuntu.com/download/ubuntu/download">.iso do Ubuntu</a>.</li>
+<li>Agora &eacute; necess&aacute;rio configurar o .iso do Ubuntu como um cd virtual.</li>
+<li>Clique em <strong>Settings</strong> e depois em <strong>Storage</strong>.</li>
+<li>Clique em <strong>IDE Controller</strong> e depois no icone do CD perto disso.</li>
+<li>Procure a .iso and selecione-la.</li>
+<li>Selecione a sua m&aacute;quina virtual e clique na seta verde que diz <strong>Start</strong>.</li>
+<li>Agora &eacute; inicie a sua m&aacute;quina virtual e fa&ccedil;a a instala&ccedil;&atilde;o do Ubuntu normalmente.</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Book review: The Pragmatic Programmer]]></title>
