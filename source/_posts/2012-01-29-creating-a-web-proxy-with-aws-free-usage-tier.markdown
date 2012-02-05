@@ -34,5 +34,40 @@ This is easy, just go to [http://aws.amazon.com/](http://aws.amazon.com/) and si
 7. Click on "Continue".
 8. On the next screen, click on "Launch". {% img images/aws-proxy/launch-new-aws-instance.png Launching it for real %}
 
-## Configuring PuTTy and your browser
+Once you have your instance up and running, you can create an [encrypted tunnel](http://en.wikipedia.org/wiki/SSH_tunnel#Secure_shell_tunneling) through which you can transfer your browsing traffic to the instance.
+
+## Using your instance as a proxy
+To use your instance as a proxy, you'll need to start it, get its public IP address, and establish a SSH connection to it, which we'll use to proxy traffic from your browser, instant messenger client, etc.
+
+### Finding your instance's IP address
+Your instance will receive a new public IP every time that it's launched. To get its IP address:
+
+1. Log in to the [EC2 console](https://console.aws.amazon.com/ec2/home) {% img images/aws-proxy/ec2-console.png AWS EC2 console starting screen %}
+2. On the left hand navigation menu, pick **Instances**.
+3. Select your instance. {% img images/aws-proxy/selected-stopped-instance.png %}
+4. Click on "Instance Actions" and then on "Start". {% img images/aws-proxy/starting-an-ec2-instance.png %}
+5. Click on "Yes, Start" on the confirmation dialog that opens.
+6. Once the instance has started, select it again, and scroll the bottom part of the EC2 console until you see the **Public DNS** entry for your instance. This is the address you'll use to connect to your instance via SSH. {% img images/aws-proxy/ec2-instance-public-dns.png %}
+
+### Configuring a SSH client (Windows - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html))
+To establish a connection to your instance you'll need a SSH client. For Windows platforms I recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). If you're using PuTTY, go ahead and download the installer that is labelled **A Windows installer for everything except PuTTYtel**. You'll need **PuTTYgen** (a SSH keypair generator and converter) and **Pageant** (an SSH authentication agent that holds your private keys in memory so you don't have to type the key password repeatedly) later on.
+
+#### Converting your EC2 key to PuTTY (PPK) format
+In order to connect to your EC2 instance with PuTTY, you'll need to convert your EC2 keypair to the PuTTY PPK format.
+
+#### Setting up PuTTY
+# Start up PuTTY, place the IP address for your instance in the text input, and set the port number to 22.
+# If you want, you can give your session a name in the **Saved Sessions** input box. This will allow you to save the PuTTY configuration (i.e. IP address, port number, SSH tunnel configuration). {% img images/aws-proxy/putty-home-screen.png %}
+# In the left hand navigation, expand the **SSH** node and click on **Auth**.
+# Click on **Browse** and select your private key file. {% img images/aws-proxy/putty-auth-with-private-key.png %}
+# In the left hand navigation, under the **SSH** node, click on **Tunnels**.
+# Set **Source port** to **7070**, **Destination** to **localhost**, and pick **Dynamic** and **Auto**. This will set up a [SOCKS proxy](http://en.wikipedia.org/wiki/SOCKS) to which you can connect through port 7070 on your local computer. {% img images/aws-proxy/creating-ssh-tunnel-with-putty.png %}
+# 
+
+#### Optional: running PuTTY from a USB pen drive
+If you'd like to have access to your instance from any Windows computer, you can download a [portable version of PuTTY](http://portableapps.com/apps/internet/putty_portable) to an USB pen drive and configure PuTTY as earlier in the article.
+
+### Configuring a SSH client (Linux)
+
+### Configuring a web browser (Firefox)
 
