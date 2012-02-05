@@ -1,24 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Abra&atilde;o Louren&ccedil;o]]></title>
-  <link href="http://abraao.github.com/atom.xml" rel="self"/>
-  <link href="http://abraao.github.com/"/>
-  <updated>2012-02-05T12:22:56+01:00</updated>
-  <id>http://abraao.github.com/</id>
-  <author>
-    <name><![CDATA[Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)]]></name>
-    <email><![CDATA[abraao@alourenco.com]]></email>
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Creating a secure web proxy with an AWS EC2 instance in the Free Usage tier - Abra&atilde;o Louren&ccedil;o</title>
+  <meta name="author" content="Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)">
 
   
-  <entry>
-    <title type="html"><![CDATA[Creating a secure web proxy with an AWS EC2 instance in the Free Usage tier]]></title>
-    <link href="http://abraao.github.com/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier/"/>
-    <updated>2012-01-29T01:19:00+01:00</updated>
-    <id>http://abraao.github.com/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier</id>
-    <content type="html"><![CDATA[<p><a href="http://aws.amazon.com/">Amazon Web Services(AWS)</a> offers a <a href="http://aws.amazon.com/free/">free usage tier</a> that includes a free Amazon EC2 Micro Instance for a year (among other benefits) to help <strong>new</strong> customers get started with the service.</p>
+  <meta name="description" content="Amazon Web Services(AWS) offers a free usage tier that includes a free Amazon EC2 Micro Instance for a year (among other benefits) to help new &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://abraao.github.com/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Abra&atilde;o Louren&ccedil;o" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Abra&atilde;o Louren&ccedil;o</a></h1>
+  
+    <h2>Software development and other things. (abraao@alourenco.com)</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:abraao.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Creating a Secure Web Proxy With an AWS EC2 Instance in the Free Usage Tier</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-29T01:19:00+01:00" pubdate data-updated="true">Jan 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="http://aws.amazon.com/">Amazon Web Services(AWS)</a> offers a <a href="http://aws.amazon.com/free/">free usage tier</a> that includes a free Amazon EC2 Micro Instance for a year (among other benefits) to help <strong>new</strong> customers get started with the service.</p>
 
 <h2>Limitations</h2>
 
@@ -46,10 +118,10 @@
 
 <ol>
 <li>Navigate to the <a href="https://console.aws.amazon.com/ec2/">EC2 console</a>.</li>
-<li>Click on &#8220;Launch Instance&#8221;. <img src="http://abraao.github.com/images/aws-proxy/launch-instance.png" title="Lauching an instance" ></li>
-<li>Select &#8220;Quicklaunch&#8221;. <img src="http://abraao.github.com/images/aws-proxy/quicklaunch-aws-instance.png" title="Picking an image more quickly" ></li>
+<li>Click on &#8220;Launch Instance&#8221;. <img src="/images/aws-proxy/launch-instance.png" title="Lauching an instance" ></li>
+<li>Select &#8220;Quicklaunch&#8221;. <img src="/images/aws-proxy/quicklaunch-aws-instance.png" title="Picking an image more quickly" ></li>
 <li>Pick a meaningful name for your instance.</li>
-<li>Name your key pair and download it. You&#8217;ll need it later to set up key based SSH authentication against the machine. <img src="http://abraao.github.com/images/aws-proxy/download-aws-keypair.png" title="Downloading AWS key pair" ></li>
+<li>Name your key pair and download it. You&#8217;ll need it later to set up key based SSH authentication against the machine. <img src="/images/aws-proxy/download-aws-keypair.png" title="Downloading AWS key pair" ></li>
 <li>Select your launch configuration. e.g. Amazon Linux (64 bit).</li>
 <li>Click on &#8220;Continue&#8221;.</li>
 <li>On the next screen, click on &#8220;Launch&#8221;. <img src="images/aws-proxy/launch-new-aws-instance.png" title="Launching it for real" ></li>
@@ -142,73 +214,200 @@
 <h4>Optional: running Firefox from an USB pen drive</h4>
 
 <p>Similarly to PuTTY, you can download a <a href="http://portableapps.com/apps/internet/firefox_portable">portable version of Firefox</a> to an USB pen drive and use it on any PC.</p>
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <entry>
-    <title type="html"><![CDATA[Como usar VirtualBox para um ambiente de desenvolvimento Linux]]></title>
-    <link href="http://abraao.github.com/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux/"/>
-    <updated>2012-01-28T23:59:00+01:00</updated>
-    <id>http://abraao.github.com/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux</id>
-    <content type="html"><![CDATA[<p><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> &eacute; uma ferramenta para criar e executar máquinas virtuais. &Eacute; oferecida por Oracle e esta disponivel gratuitamente.</p>
 
-<h2>Criando uma máquina virtual</h2>
+<span class="byline author vcard">Posted by <span class="fn">Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)</span></span>
 
-<ol>
-<li>Baixe o <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
-<li>Clique em &#8220;Machine > New&#8221;, e depois, &#8220;Next&#8221;.</li>
-<li>Coloque um nome para a sua máquina virtual.</li>
-<li>Selecione &#8220;Linux&#8221; e &#8220;Ubuntu&#8221; e clique em &#8220;Next&#8221;.</li>
-<li>Selecione o tanto de memoria que voc&ecirc; quer usar para a máquina virtual. Eu recomendo utilizar o m&aacute;ximo poss&iacute;vel, mas n&atilde;o mais que (RAM total) - (m&iacute;nimo para rodar o sistema operacional do computador). Por exemplo: 12GB - 4GB (m&iacute;nimo para Windows 7) = 8GB m&aacute;ximo para a m&aacute;quina virtual.</li>
-<li>Na tela de &#8220;Virtual Hard Disk&#8221;, selecione &#8220;Create new hard disk&#8221;. Depois clique em &#8220;Next&#8221;.</li>
-<li>Selecione &#8220;Fixed-sized storage&#8221; e no m&iacute;nimo 4GB para o disco duro. A instala&ccedil;&atilde;o do Ubuntu requer 4GB de disco duro, mas &eacute; recomend&aacute;vel utilizar mais (8GB por exemplo).</li>
-<li>Clique em &#8220;Finish&#8221; e espere que a máquina virtual seja criada.</li>
-</ol>
+      
 
 
-<h2>Instalando Ubuntu</h2>
 
-<ol>
-<li>Depois da máquina ser criada, baixe o <a href="http://www.ubuntu.com/download/ubuntu/download">.iso do Ubuntu</a>.</li>
-<li>Agora &eacute; necess&aacute;rio configurar o .iso do Ubuntu como um cd virtual.</li>
-<li>Clique em <strong>Settings</strong> e depois em <strong>Storage</strong>.</li>
-<li>Clique em <strong>IDE Controller</strong> e depois no icone do CD perto disso.</li>
-<li>Procure a .iso and selecione-la.</li>
-<li>Selecione a sua m&aacute;quina virtual e clique na seta verde que diz <strong>Start</strong>.</li>
-<li>Agora &eacute; inicie a sua m&aacute;quina virtual e fa&ccedil;a a instala&ccedil;&atilde;o do Ubuntu normalmente.</li>
-</ol>
 
-]]></content>
-  </entry>
+
+
+
+
   
-  <entry>
-    <title type="html"><![CDATA[Book review: The Pragmatic Programmer]]></title>
-    <link href="http://abraao.github.com/blog/2011/12/17/book-review-the-pragmatic-programmer/"/>
-    <updated>2011-12-17T02:31:00+01:00</updated>
-    <id>http://abraao.github.com/blog/2011/12/17/book-review-the-pragmatic-programmer</id>
-    <content type="html"><![CDATA[<p>Programming is a craft that involves more than coding, and <a href="http://pragprog.com/the-pragmatic-programmer">The Pragmatic Programmer</a> gives developers advice on how to improve those other areas. Its suggestions should already be common practice in a decent software shop; check it to see if there&#8217;s anything you need to improve in your work environment.</p>
-
-<p>The technology referenced in the book needs to be updated to reflect the current state of the art. While this doesn&#8217;t negate the points made by the authors, listing CVS and RCS as options for source code control systems but omitting distributed version control options such as git and mercurial would be unconscionable in a new volume.</p>
-
-<p>The sections <em>The Requirements Pit</em> and <em>Pragmatic Teams</em> stood out from the rest in their applicability to improving my skill set. In <em>The Requirements Pit</em> the authors explain how to find requirements that may be &#8220;buried beneath deep beneath layers of assumptions, misconceptions, and politics&#8221; and how to document them properly. It&#8217;s very tempting to code to spec and dismiss complaints of &#8220;that&#8217;s not what I meant&#8221; variety, but it&#8217;s the responsibility of every professional developer (see <a href="http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073">The Clean Coder</a>) to deliver what the user needs. The key point in this chapter is that &#8220;it&#8217;s important to discover the underlying reason why user do a particular thing, rather than just the way they currently do it.&#8221;</p>
-
-<p><em>Pragmatic Teams</em> covers how to apply the pragmatic methods to teams:</p>
-
-<ul>
-<li>Teams should not tolerate broken windows.</li>
-<li>Someone should be in charge for guarding against scope creep or changes that weren&#8217;t captured in the original agreement.</li>
-<li>How a team should communicate with the rest of the organization.</li>
-<li>Splitting teams functionally.</li>
-<li>Automate as much as possible.</li>
-</ul>
 
 
-<p>One of the roles described in <em>Pragmatic Teams</em>, the project librarian, seems antiquated in a time when source code indexing and search tools are available and when good documentation is available on existing code. I&#8217;d be curious to hear from a team who uses this role  to deliver what the user needs</p>
+<time datetime="2012-01-29T01:19:00+01:00" pubdate data-updated="true">Jan 29<span>th</span>, 2012</time>
+      
 
-<p>The team that is described in <em>Pragmatic Teams</em> is a group that works together within the organization and moves from project to project together. I haven&#8217;t had the opportunity to be part of such a team (i.e. teams are assembled for each project), but it&#8217;s an approach that I think would be build a sense of unity between the members.</p>
-
-<p>Overall this book is a good addition to any developer&#8217;s library, but more modern alternatives should be used instead of the tools and technologies mentioned.</p>
-]]></content>
-  </entry>
+<span class="categories">
   
-</feed>
+    <a class='category' href='/blog/categories/aws/'>AWS</a>, <a class='category' href='/blog/categories/development/'>Development</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://abraao.github.com/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier/" data-via="abelourenco" data-counturl="http://abraao.github.com/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="small"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux/" title="Previous Post: Como usar VirtualBox para um ambiente de desenvolvimento Linux">&laquo; Como usar VirtualBox para um ambiente de desenvolvimento Linux</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+<section>
+  <h1>CV / R&eacute;sum&eacute;</h1>
+  <p><a href="http://vizualize.me/abraao">Professional information</a></p>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/29/creating-a-web-proxy-with-aws-free-usage-tier/">Creating a secure web proxy with an AWS EC2 instance in the Free Usage tier</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/01/28/como-usar-virtualbox-para-um-ambiente-de-desenvolvimento-linux/">Como usar VirtualBox para um ambiente de desenvolvimento Linux</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/12/17/book-review-the-pragmatic-programmer/">Book review: The Pragmatic Programmer</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/abraao">@abraao</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'abraao',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("abelourenco", 1, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/abelourenco" class="twitter-follow-button" data-show-count="true">Follow @abelourenco</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/102104545851568461071?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com) -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
