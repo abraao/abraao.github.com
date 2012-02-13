@@ -4,7 +4,7 @@
   <title><![CDATA[Abra&atilde;o Louren&ccedil;o]]></title>
   <link href="http://abraao.github.com/atom.xml" rel="self"/>
   <link href="http://abraao.github.com/"/>
-  <updated>2012-02-13T01:38:23+01:00</updated>
+  <updated>2012-02-13T01:42:13+01:00</updated>
   <id>http://abraao.github.com/</id>
   <author>
     <name><![CDATA[Abra&atilde;o Louren&ccedil;o (abraao@alourenco.com)]]></name>
@@ -12,6 +12,149 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Leancamp wrap-up]]></title>
+    <link href="http://abraao.github.com/blog/2012/02/12/leancamp-wrap-up/"/>
+    <updated>2012-02-12T21:28:00+01:00</updated>
+    <id>http://abraao.github.com/blog/2012/02/12/leancamp-wrap-up</id>
+    <content type="html"><![CDATA[<p>One of my goals in attending <a href="http://lanyrd.com/2012/leancamp-barcelona/">Leancamp Barcelona</a> was to meet people in the software development and startup communities in Barcelona and around the world. To prepare for that, I compiled a list of blogs, startups, and Twitter accounts that I found interesting from the list of attendees posted before the event, where everyone posted their blog, website, or Twitter account. I also included people, startups, and organizations I met at Leancamp, as well as recommendations from a friend.</p>
+
+<p>Enjoy! If I missed anyone just shoot me message at <a href="http://twitter.com/alourenco">@alourenco</a> <a href="https://twitter.com/alourenco" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+ or <a href="mailto:abraao@alourenco.com">abraao@alourenco.com</a>.</p>
+
+<h2>Events and meetups</h2>
+
+<h3>Barcelona</h3>
+
+<ul>
+<li><a href="http://www.esadecodecamp.com/">ESADE CodeCamp</a>: every 1st and 3rd Thursday of the month. <strong>FREE</strong>, but you have to register ahead of time. Headed by <a href="http://www.esade.edu/faculty/jan.brinckmann">Jan Brinckmann</a> (<a href="http://twitter.com/janbri">@janbri</a> <a href="https://twitter.com/janbri" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+)</li>
+<li><a href="http://agile-barcelona.org/">Agile Barcelona</a>(<a href="http://twitter.com/agilebcn">@agilebcn</a> <a href="https://twitter.com/agilebcn" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+) organizes meetups, talks, and coding dojos.</li>
+<li>Check <a href="http://blogs.salleurl.edu/emprendedores/">La Salle Technova Barcelona Blog on startups</a> for new events.</li>
+</ul>
+
+
+<h3>Spain</h3>
+
+<ul>
+<li><a href="http://www.e3union.com/">Union of Student Entrepreneurs</a>(<a href="http://twitter.com/e3union">@e3union</a> <a href="https://twitter.com/e3union" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+)</li>
+</ul>
+
+
+<h3>Europe</h3>
+
+<ul>
+<li><a href="http://altlab.org/">AltLab, Lisbon&#8217;s Hackerspace</a>(<a href="http://twitter.com/altlab">@altlab</a> <a href="https://twitter.com/altlab" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+)</li>
+</ul>
+
+
+<h2>People: blogs &amp; Twitter accounts</h2>
+
+<h3>Barcelona</h3>
+
+<ul>
+<li>Members of the Agile community in Barcelona: <a href="http://twitter.com/carlosTheSailor">@carlosTheSailor</a> <a href="https://twitter.com/carlosTheSailor" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, <a href="http://twitter.com/jgomezz">@jgomezz</a> <a href="https://twitter.com/jgomezz" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, <a href="http://twitter.com/juanan_sosa">@juanan_sosa</a> <a href="https://twitter.com/juanan_sosa" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, <a href="http://twitter.com/alegrebandolero">@alegrebandolero</a> <a href="https://twitter.com/alegrebandolero" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, <a href="http://twitter.com/jaumejornet">@jaumejornet</a> <a href="https://twitter.com/jaumejornet" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, <a href="http://twitter.com/pedromsantos">@pedromsantos</a> <a href="https://twitter.com/pedromsantos" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+.</li>
+<li><a href="http://nodos.typepad.com/">Mario L&oacute;pez de &Aacute;vila</a>(<a href="http://twitter.com/nodosenlared">@nodosenlared</a> <a href="https://twitter.com/nodosenlared" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): Consultant, Entrepreneur &amp; Investor, Director Owners &amp; Entrepreneurs Management Program IE Business School.</li>
+<li><a href="http://alapamui.blogspot.com/">Toni Tassani</a>(<a href="http://twitter.com/atassani">@atassani</a> <a href="https://twitter.com/atassani" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): software developer in Barcelona.</li>
+<li><a href="http://uxbcbcn.blogspot.com/">UX Book Club Barcelona</a></li>
+<li><a href="http://about.me/silviacalvet">Silvia Calvet</a>(<a href="http://twitter.com/silviacalvet">@silviacalvet</a> <a href="https://twitter.com/silviacalvet" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): coordinator of the UX Book Club Barcelona.</li>
+<li><a href="http://sergialmar.wordpress.com/">Sergi Almar</a>(<a href="http://twitter.com/sergialmar">@sergialmar</a> <a href="https://twitter.com/sergialmar" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): Java developer in Barcelona, founder of <a href="http://www.pay-touch.com/">Pay Touch</a>.</li>
+<li><p><a href="http://eidrienontech.blogspot.com/">Adrian Perreau, Agile research coach in Barcelona</a>, <a href="http://twitter.com/eidrien">@eidrien</a> <a href="https://twitter.com/eidrien" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a></p></li>
+<li><p><a href="http://blog.abelmuino.com/">Abel Mui&ntilde;o, software developer and entrepreneur in Barcelona</a>, <a href="http://twitter.com/amuino">@amuino</a> <a href="https://twitter.com/amuino" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+. Part of <a href="http://1uptalent.com/">1up talent</a>, software consultancy in Barcelona.</p></li>
+<li>Pablo Postigo (<a href="http://twitter.com/pablopostigo">@pablopostigo</a> <a href="https://twitter.com/pablopostigo" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): part of <a href="http://www.undefined.es/en/">Undefined</a>(<a href="http://twitter.com/undefined_es">@undefined_es</a> <a href="https://twitter.com/undefined_es" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+).</li>
+<li><a href="http://flexfokus.wordpress.com/">Alex Mason</a>: founder of <a href="www.flexfokus.com">FlexFokus</a>(<a href="http://twitter.com/Flexfokus1">@Flexfokus1</a> <a href="https://twitter.com/Flexfokus1" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+) and <a href="http://www.demulu.com">DeMulu Global</a>(<a href="http://twitter.com/DeMuluGlobal">@DeMuluGlobal</a> <a href="https://twitter.com/DeMuluGlobal" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+, based in Madrid.</li>
+<li><a href="http://www.davidmorigan.com/">David Morrigan</a>(<a href="http://twitter.com/davidmorigan">@davidmorigan</a> <a href="https://twitter.com/davidmorigan" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): works at <a href="http://www.technovabarcelona.org/portal/parc/parc/Controller?%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mvchandler=portals&amp;action=start&amp;showingIndex=true&amp;use-lang=en">La Salle Technova Barcelona</a> providing support to startups.</li>
+</ul>
+
+
+<h3>Europe &amp; world</h3>
+
+<ul>
+<li><a href="http://www.disrupt.in/">Disrupt.in blog</a></li>
+<li><a href="http://inessilva.org/">In&ecirc;s Silva, entrepreneur in Portugal</a>(<a href="http://twitter.com/isss111">@isss111</a> <a href="https://twitter.com/isss111" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): founded <a href="http://www.startuppirates.org/">Startup Pirates</a>.</li>
+<li><a href="http://rebelic.nl/">Timan Rebel&#8217;s blog on technology and startups</a></li>
+<li><a href="http://wilgengebroed.nl/">Esther Gons&#8217;s personal blog on technology and startups</a></li>
+<li><a href="http://www.uxdna.co.uk/">UXdna - blog on User Experience</a></li>
+</ul>
+
+
+<h2>Local startups</h2>
+
+<h3>Barcelona</h3>
+
+<ul>
+<li><a href="http://www.undefined.es/en/">Undefined</a>(<a href="http://twitter.com/undefined_es">@undefined_es</a> <a href="https://twitter.com/undefined_es" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): if you have an idea, they can build it for you.</li>
+<li><a href="http://www.knomos.com/">Knomos</a>: Android and iOS development.</li>
+<li><a href="http://changeyourflight.com/">Change Your Flight</a>(<a href="http://twitter.com/ChangeUrFlight">@ChangeUrFlight</a> <a href="https://twitter.com/ChangeUrFlight" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): get a refund for an unused plane ticket.</li>
+<li><a href="http://www.pay-touch.com/">Pay Touch</a></li>
+<li><a href="http://nomadica.co/">Nomadica Brainstorming</a>: develops ideas into prototype and full products.</li>
+<li><a href="http://www.runroom.com/en">Runroom</a>(<a href="http://twitter.com/runroom">@runroom</a> <a href="https://twitter.com/runroom" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): Agile software development consulting, frequent hosts of Agile Barcelona events.</li>
+<li><a href="http://www.opendestination.com/">OpenDestination</a></li>
+<li><a href="http://www.agilogy.com/">Agilogy</a>(<a href="http://twitter.com/agilogy">@agilogy</a> <a href="https://twitter.com/agilogy" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): Web, backend, and mobile consultancy in Barcelona.</li>
+<li><a href="http://www.mobivery.com/">Mobivery, mobile development</a></li>
+<li><a href="http://www.cirkana.com/">Cirkana</a></li>
+<li><a href="http://www.welovecode.net/?lang=en">Welovecode</a>(<a href="http://twitter.com/welovecode_">@welovecode_</a> <a href="https://twitter.com/welovecode_" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+)</li>
+</ul>
+
+
+<h3>Europe &amp; world</h3>
+
+<ul>
+<li><a href="http://www.demulu.com/DeMulu_Global/DeMulu/DeMulu.html">DeMulu Global</a>(<a href="http://twitter.com/DeMuluGlobal">@DeMuluGlobal</a> <a href="https://twitter.com/DeMuluGlobal" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+) - Madrid, Spain</li>
+<li><a href="http://www.lookk.com/">LOOKK</a> - London, UK</li>
+<li><a href="http://path11.com/">Path11, software crafters</a></li>
+<li><a href="http://firmhouse.com/">Firmhouse</a></li>
+<li><a href="http://www.press42.com/">Press42, helping startups talk to the press</a>(<a href="http://twitter.com/42press">@42press</a> <a href="https://twitter.com/42press" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): Alex Barrera hosted an excellent session at Leancamp Barcelona on the topic of PR &amp; communication.</li>
+</ul>
+
+
+<h2>Organizations supporting startups</h2>
+
+<h3>Barcelona</h3>
+
+<ul>
+<li><a href="http://www.technovabarcelona.org/portal/parc/parc/Controller?mvchandler=portals&amp;action=start&amp;showingIndex=true&amp;use-lang=en">La Salle Technova Barcelona</a>(<a href="http://twitter.com/LaSalleTechnova">@LaSalleTechnova</a> <a href="https://twitter.com/LaSalleTechnova" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+): organizes events and provides support for startups in Barcelona.</li>
+</ul>
+
+
+<h3>Europe</h3>
+
+<ul>
+<li><a href="http://generalassemb.ly/">General Assembly</a>: technology, design, and entrepreneurship in one campus in NYC. Rob Fitzpatrick (<a href="http://twitter.com/robfitz">@robfitz</a> <a href="https://twitter.com/robfitz" class="twitter-follow-button" data-show-screen-name="false" data-width="65px" data-show-count="false">Follow</a>
+) is <a href="http://thestartuptoolkit.com/blog/about-contact/rob-fitzpatrick/">leading the charge of establishing it in Europe via a location in London</a>.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Creating a secure web proxy with an AWS EC2 instance in the Free Usage tier]]></title>
